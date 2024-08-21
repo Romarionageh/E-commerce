@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Jost", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 20px 10%;
+    width: 100%;
+
+}
+ .logo img{
+    width:120px;
+    height: auto;
+    
+}
+
+nav a{
+    padding: 20px;
+    color: #2c2c2c;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .42s ease-in-out;
+}
+
+nav a:hover{
+    color: #EE1c47;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+
+}
+
+.header-icons i{
+    color: #2c2c2c;
+    font-size: 25px;
+    margin-right: 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.header-icons i:hover{
+    transform: scale(1.1);
+    color: #EE1c47;
+}
+#menu-icon{
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+section {
+    padding: 5% 10%;
+    width: 100%;
+    
+
+}
+
+.main-home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/banner-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-text h5{
+    color: #EE1c47;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-text h1{
+    color: #000;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 6px 0 10px;
+}
+
+.main-text p{
+    color: #3b549f;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.main-btn{
+    display: inline-block;
+    border: 2px solid #111;
+    border-radius: 20px;
+    color: #111 ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+    transition: all .42s ease;
+}
+
+.main-btn:hover{
+    background-color: #000;
+    color:#eee;
+}
+.main-btn i{
+    vertical-align: middle;
+}
+
+.down-arrow{
+    position: absolute;
+    top: 85%;
+    right: 10%;
+}
+
+.down i{
+    border: 2px solid #111 ;
+    color: #111;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 10px ;
+
+}
+
+.down i:hover{
+    color: #eee;
+    background-color: #111;
+    transition: all .42s ease;
+}
+
+.center-text h2{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.center-text span{
+color: #EE1c47;
+font-size: 30px;
+    font-weight: 500;
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+ .row {
+    width: 300px;
+    height:auto;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    box-shadow: 5px 5px 5px #eee;
+    position: relative;
+    flex-wrap: wrap;
+ }
+ .row img{
+    width: 100%;
+    height: auto;
+    transition: all .42s ease;
+ }
+
+ .row img:hover{
+    transform: scale(.9);
+ }
+
+ .product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    background-color: rgb(64, 177, 64);
+    font-family: 500;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 2px;
+    
+ }
+ .heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+ }
+
+ .heart-icon:hover{
+    color: #EE1c47;
+ }
+ .ratting i{
+    color: #e6e612;
+ }
+
+ .price h4{
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+
+ }
+
+ .price p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+ }
+
+ .client-reviews{
+    background-color: #f3f4f6;
+ }
+ .reviews{
+text-align: center;
+ }
+
+ .reviews h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #111;
+    text-align: center;
+ }
+ .reviews img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+ }
+
+ .reviews p{
+    color: #707070;
+    margin: 10px 0;
+    line-height: 25px;
+ }
+ .reviews h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+ }
+
+ .update-center-text h2{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+ }
+.card{
+    width: 388px;
+}
+ .update-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+ }
+
+ .update-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ .card h5{
+    color: #636872;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .card h4{
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .card p{
+    color: #707070;
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    max-width: 388px;
+ }
+
+ .card h6{
+    color: #151515;
+    font-size: 15px;
+    font-weight: 500;
+ }
+
+
+ .contact{
+    background-color: #f3f4f6;
+ }
+
+ .contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+ .first-info img{
+    width: 140px;
+    height: auto;
+    
+ }
+ .contact-info h4{
+    color: #212529;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+ }
+ .contact-info p{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    transition: all .42s;
+    cursor: pointer;
+ }
+
+ .contact-info p:hover{
+    color: #EE1c47;
+ }
+
+ .social-icon i{
+    color: #565656;
+    font-size: 20px;
+    transition: all .42s;
+    margin-right: 10px;
+
+ }
+
+ .social-icon i:hover{
+    transform: scale(1.1);
+ }
+
+ footer{
+    background-color: #edfff1;
+    text-align: center;
+    padding: 20px;
+ }
+ footer p{
+    color: #111;
+    text-transform: capitalize;
+ }
+
+ @media(max-width:890px){
+    header{
+        padding: 20px 3%;
+        transition: .4s;
+    }
+ }
+
+ @media(max-width:630px){
+    .main-text h1{
+        font-size: 50px;
+        transition: .4s;
+    }
+    .main-text p{
+        font-size: 18px;
+        transition: .4s;
+    }
+    .main-btn{
+        padding: 10px 20px;
+        transition: .4s;
+    }
+ }
+ @media(max-width:750px){
+    nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background-color: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px;
+
+    }
+    nav.open{
+        right: 0;
+    }
+ }
